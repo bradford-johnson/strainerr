@@ -13,7 +13,7 @@
 #' @examples titlr(plot,"MPG and Weight", "MPG", "Weight")
 titlr <- function(p, title, x.axis, y.axis) {
 
-  p + tidyverse::labs(title = title, x = x.axis, y = y.axis)
+  p + labs(title = title, x = x.axis, y = y.axis)
 
 }
 
