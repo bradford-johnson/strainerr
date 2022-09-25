@@ -7,6 +7,7 @@
 #'
 #' @import tidyverse
 #' @return
+#'
 #' @export
 #'
 #' @examples titlr(plot,"MPG and Weight", "MPG", "Weight")
