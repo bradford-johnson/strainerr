@@ -3,11 +3,11 @@
 #' @param x A data frame
 #' @param column_q The column name in "quotes"
 #' @param column The column name
-#'
+#' @import tidyverse
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples strain(data_df, "ages", ages)
 strain <- function(x,column_q,column) {
 
   Q <- quantile(x[[column_q]], probs = c(.25,.75), na.rm = FALSE)

@@ -13,6 +13,12 @@ strain(x, column_q, column)
 
 \item{column}{The column name}
 }
+\value{
+strained_df
+}
 \description{
 Title
+}
+\examples{
+strain(data_df, "ages", ages)
 }

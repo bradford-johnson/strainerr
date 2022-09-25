@@ -15,6 +15,9 @@ titlr(p, title, x.axis, y.axis)
 
 \item{y.axis}{"Y axis text" in quotes}
 }
+\value{
+p
+}
 \description{
 Titlr
 }

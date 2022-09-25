@@ -2,3 +2,4 @@
 
 export(strain)
 export(titlr)
+import(tidyverse)
