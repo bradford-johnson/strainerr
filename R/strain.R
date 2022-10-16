@@ -19,5 +19,5 @@ strain <- function(x,column_q,column) {
   x <- x %>%
     filter(column > low & column < up)
 
-  return(strained_df)
+  return(x)
 }
