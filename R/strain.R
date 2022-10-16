@@ -16,7 +16,7 @@ strain <- function(x,column_q,column) {
   up <- Q[2]+1.5*iqr
   low <- Q[1]-1.5*iqr
 
-  strained_df <- x %>%
+  x <- x %>%
     filter(column > low & column < up)
 
   return(strained_df)
